@@ -258,9 +258,9 @@ img{max-width:100%}
     <nav aria-label="Sections">
       <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#figures">Selected figures</a></li>
         <li><a href="#research">Research focus</a></li>
         <li><a href="#methods">Methods</a></li>
+        <li><a href="#figures">Selected figures</a></li>
         <li><a href="#publications">Publications</a></li>
         <li><a href="#opportunities">Opportunities</a></li>
         <li><a href="#background">Background</a></li>
@@ -293,6 +293,56 @@ img{max-width:100%}
         <div class="stat"><b>4</b><span>Under review or submitted</span></div>
         <div class="stat"><b>3</b><span>Conference papers</span></div>
       </div>
+    </section>
+
+    <section id="research">
+      <span class="eyebrow">Research focus</span>
+      <h2>Five material families, one method</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Lead-free double halide perovskites</h3>
+          <p>Vacancy-ordered and elpasolite-type halides as non-toxic replacements for lead absorbers. Band alignment, optical absorption, thermoelectric response and lattice stability across the halogen series.</p>
+          <p class="formula">Cs₂B′B″X₆ · X₂NaIrCl₆ · M₂KIrCl₆ · Cs₂CuLuY₆</p>
+        </div>
+        <div class="card">
+          <h3>Hydride perovskites for hydrogen storage</h3>
+          <p>Gravimetric capacity, formation energy and desorption behaviour of ternary hydrides, checked for dynamic stability with ab initio molecular dynamics.</p>
+          <p class="formula">MgBH₃ (B = Mo, In) · MgXH₃ (X = Ga, Tl)</p>
+        </div>
+        <div class="card">
+          <h3>Half-Heusler alloys and chalcogenides</h3>
+          <p>Electronic, elastic and thermomechanical properties of ternary intermetallics and layered chalcogenides for optoelectronic and thermoelectric use.</p>
+          <p class="formula">ANiSn · V-based half-Heuslers · TlCrX₂ (X = S, Se)</p>
+        </div>
+        <div class="card">
+          <h3>Battery anodes and photocatalysts</h3>
+          <p>Progressive lithiation of anatase TiO₂ with DFT+U, migration barriers from nudged elastic band calculations, and dopant-induced in-gap states that shift the absorption edge into the visible.</p>
+          <p class="formula">TiO₂ · LiTiO₂ · Li₂TiO₂ · Ag- and NaF-doped TiO₂</p>
+        </div>
+        <div class="card">
+          <h3>Correlated and magnetic oxides</h3>
+          <p>Hubbard-corrected treatment of transition-metal oxides where on-site correlation decides the magnetic ground state and the spin character of the carriers.</p>
+          <p class="formula">Spinel LiTi₂O₄</p>
+        </div>
+        <div class="card">
+          <h3>Perovskite solar cell devices</h3>
+          <p>Carrying a calculated absorber into a full device stack: band offsets, defect density, series resistance, and the quantum efficiency and impedance response that follow.</p>
+          <p class="formula">SCAPS&#8209;1D · J-V · EQE · Mott-Schottky</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="methods">
+      <span class="eyebrow">Methods</span>
+      <h2>What I actually run</h2>
+      <dl class="methods">
+        <div class="method-row"><dt>Electronic structure</dt><dd>Geometry and variable-cell relaxation, convergence testing of k-point mesh and plane-wave cutoff, pseudopotential and exchange-correlation functional selection, band structure and projected density of states, DFT+U for correlated <em>d</em> states.</dd></div>
+        <div class="method-row"><dt>Dynamics and kinetics</dt><dd>Ab initio molecular dynamics for finite-temperature stability; nudged elastic band for migration barriers and diffusion pathways.</dd></div>
+        <div class="method-row"><dt>Charge and bonding</dt><dd>Bader charge analysis, charge-density difference maps, ion adsorption energetics, photocatalytic potential from band-edge positions.</dd></div>
+        <div class="method-row"><dt>Derived properties</dt><dd>Elastic constants and mechanical stability criteria, phonon and thermodynamic quantities, optical dielectric response, thermoelectric transport coefficients.</dd></div>
+        <div class="method-row"><dt>Device modelling</dt><dd>SCAPS&#8209;1D thin-film and perovskite solar cells: architecture design, defect and interface parameters, J-V characteristics, quantum efficiency, Mott-Schottky and impedance analysis.</dd></div>
+        <div class="method-row"><dt>Codes</dt><dd>Quantum ESPRESSO, CASTEP, WIEN2k, Materials Studio, SCAPS&#8209;1D, thermo_pw, VESTA, Origin, MATLAB; Linux workflows on HPC clusters.</dd></div>
+      </dl>
     </section>
 
     <section id="figures">
@@ -364,56 +414,6 @@ img{max-width:100%}
           <figcaption>Power conversion efficiency as the absorber and the ZnO layer are made thicker. The contours run vertically, so efficiency is set by the absorber thickness alone and passes 18% beyond about 1 µm.</figcaption>
         </figure>
       </div>
-    </section>
-
-    <section id="research">
-      <span class="eyebrow">Research focus</span>
-      <h2>Five material families, one method</h2>
-      <div class="cards">
-        <div class="card">
-          <h3>Lead-free double halide perovskites</h3>
-          <p>Vacancy-ordered and elpasolite-type halides as non-toxic replacements for lead absorbers. Band alignment, optical absorption, thermoelectric response and lattice stability across the halogen series.</p>
-          <p class="formula">Cs₂B′B″X₆ · X₂NaIrCl₆ · M₂KIrCl₆ · Cs₂CuLuY₆</p>
-        </div>
-        <div class="card">
-          <h3>Hydride perovskites for hydrogen storage</h3>
-          <p>Gravimetric capacity, formation energy and desorption behaviour of ternary hydrides, checked for dynamic stability with ab initio molecular dynamics.</p>
-          <p class="formula">MgBH₃ (B = Mo, In) · MgXH₃ (X = Ga, Tl)</p>
-        </div>
-        <div class="card">
-          <h3>Half-Heusler alloys and chalcogenides</h3>
-          <p>Electronic, elastic and thermomechanical properties of ternary intermetallics and layered chalcogenides for optoelectronic and thermoelectric use.</p>
-          <p class="formula">ANiSn · V-based half-Heuslers · TlCrX₂ (X = S, Se)</p>
-        </div>
-        <div class="card">
-          <h3>Battery anodes and photocatalysts</h3>
-          <p>Progressive lithiation of anatase TiO₂ with DFT+U, migration barriers from nudged elastic band calculations, and dopant-induced in-gap states that shift the absorption edge into the visible.</p>
-          <p class="formula">TiO₂ · LiTiO₂ · Li₂TiO₂ · Ag- and NaF-doped TiO₂</p>
-        </div>
-        <div class="card">
-          <h3>Correlated and magnetic oxides</h3>
-          <p>Hubbard-corrected treatment of transition-metal oxides where on-site correlation decides the magnetic ground state and the spin character of the carriers.</p>
-          <p class="formula">Spinel LiTi₂O₄</p>
-        </div>
-        <div class="card">
-          <h3>Perovskite solar cell devices</h3>
-          <p>Carrying a calculated absorber into a full device stack: band offsets, defect density, series resistance, and the quantum efficiency and impedance response that follow.</p>
-          <p class="formula">SCAPS&#8209;1D · J-V · EQE · Mott-Schottky</p>
-        </div>
-      </div>
-    </section>
-
-    <section id="methods">
-      <span class="eyebrow">Methods</span>
-      <h2>What I actually run</h2>
-      <dl class="methods">
-        <div class="method-row"><dt>Electronic structure</dt><dd>Geometry and variable-cell relaxation, convergence testing of k-point mesh and plane-wave cutoff, pseudopotential and exchange-correlation functional selection, band structure and projected density of states, DFT+U for correlated <em>d</em> states.</dd></div>
-        <div class="method-row"><dt>Dynamics and kinetics</dt><dd>Ab initio molecular dynamics for finite-temperature stability; nudged elastic band for migration barriers and diffusion pathways.</dd></div>
-        <div class="method-row"><dt>Charge and bonding</dt><dd>Bader charge analysis, charge-density difference maps, ion adsorption energetics, photocatalytic potential from band-edge positions.</dd></div>
-        <div class="method-row"><dt>Derived properties</dt><dd>Elastic constants and mechanical stability criteria, phonon and thermodynamic quantities, optical dielectric response, thermoelectric transport coefficients.</dd></div>
-        <div class="method-row"><dt>Device modelling</dt><dd>SCAPS&#8209;1D thin-film and perovskite solar cells: architecture design, defect and interface parameters, J-V characteristics, quantum efficiency, Mott-Schottky and impedance analysis.</dd></div>
-        <div class="method-row"><dt>Codes</dt><dd>Quantum ESPRESSO, CASTEP, WIEN2k, Materials Studio, SCAPS&#8209;1D, thermo_pw, VESTA, Origin, MATLAB; Linux workflows on HPC clusters.</dd></div>
-      </dl>
     </section>
 
     <section id="publications">
